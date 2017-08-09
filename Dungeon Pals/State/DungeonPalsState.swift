@@ -80,7 +80,7 @@ enum DungeonPalsState: AppState {
         }
     }
     
-    static func transitionViewToState<T : UIViewController>(_ controller: T, state: T.State) where T : StatefulViewProtocol, T.State == DungeonPalsState {
+    static func transitionViewToState<T : UIViewController>(_ controller: T, state: T.State) where T : StatefulView, T.State == DungeonPalsState {
         let fromState = controller.state
         
         switch (state, fromState) {
@@ -126,7 +126,7 @@ enum DungeonPalsState: AppState {
         }
     }
     
-    static func dismissView<T : UIViewController>(_ controller: T) where T : StatefulViewProtocol {
+    static func dismissView<T : UIViewController>(_ controller: T) where T : StatefulView {
         if let nav = controller.navigationController {
             nav.popViewController(animated: true)
         } else {

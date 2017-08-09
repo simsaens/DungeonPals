@@ -1,5 +1,5 @@
 //
-//  StatefulViewProtocol+UIKit.swift
+//  StatefulView+UIKit.swift
 //  Dungeon Contacts
 //
 //  Created by Simeon on 10/8/17.
@@ -9,7 +9,7 @@
 import UIKit
 import MessageUI
 
-extension UIAlertController: StatefulViewProtocol
+extension UIAlertController: StatefulView
 {
     typealias State = DungeonPalsState
     
@@ -18,7 +18,7 @@ extension UIAlertController: StatefulViewProtocol
     }
 }
 
-extension MFMailComposeViewController: StatefulViewProtocol
+extension MFMailComposeViewController: StatefulView
 {
     typealias State = DungeonPalsState
     

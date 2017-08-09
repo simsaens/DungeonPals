@@ -12,5 +12,5 @@ protocol AppState
 {
     func viewController() -> UIViewController
     
-    static func transitionViewToState<T: UIViewController>(_ controller: T, state: Self) where T: StatefulViewProtocol, T.State == Self    
+    static func transitionViewToState<T: UIViewController>(_ controller: T, state: Self) where T: StatefulView, T.State == Self    
 }

@@ -17,8 +17,8 @@
 		DBEFFA201F3B61C4001B6512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEFFA1E1F3B61C4001B6512 /* LaunchScreen.storyboard */; };
 		DBEFFA301F3B64F8001B6512 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA281F3B6352001B6512 /* AppState.swift */; };
 		DBEFFA311F3B64F8001B6512 /* DungeonPalsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA291F3B6352001B6512 /* DungeonPalsState.swift */; };
-		DBEFFA321F3B64F8001B6512 /* StatefulViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA2A1F3B6352001B6512 /* StatefulViewProtocol.swift */; };
-		DBEFFA331F3B64F8001B6512 /* StatefulViewProtocol+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA2B1F3B638F001B6512 /* StatefulViewProtocol+UIKit.swift */; };
+		DBEFFA321F3B64F8001B6512 /* StatefulView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA2A1F3B6352001B6512 /* StatefulView.swift */; };
+		DBEFFA331F3B64F8001B6512 /* StatefulView+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA2B1F3B638F001B6512 /* StatefulView+UIKit.swift */; };
 		DBF690111F3B6937001EF964 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF690101F3B6937001EF964 /* ContactListViewController.swift */; };
 		DBF690141F3B699B001EF964 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF690131F3B699B001EF964 /* Contact.swift */; };
 		DBF690181F3B6C47001EF964 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF690171F3B6C47001EF964 /* ContactListViewModel.swift */; };
@@ -43,8 +43,8 @@
 		DBEFFA211F3B61C4001B6512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBEFFA281F3B6352001B6512 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		DBEFFA291F3B6352001B6512 /* DungeonPalsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonPalsState.swift; sourceTree = "<group>"; };
-		DBEFFA2A1F3B6352001B6512 /* StatefulViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulViewProtocol.swift; sourceTree = "<group>"; };
-		DBEFFA2B1F3B638F001B6512 /* StatefulViewProtocol+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatefulViewProtocol+UIKit.swift"; sourceTree = "<group>"; };
+		DBEFFA2A1F3B6352001B6512 /* StatefulView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulView.swift; sourceTree = "<group>"; };
+		DBEFFA2B1F3B638F001B6512 /* StatefulView+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatefulView+UIKit.swift"; sourceTree = "<group>"; };
 		DBF690101F3B6937001EF964 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		DBF690131F3B699B001EF964 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		DBF690171F3B6C47001EF964 /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 			children = (
 				DBEFFA281F3B6352001B6512 /* AppState.swift */,
 				DBEFFA291F3B6352001B6512 /* DungeonPalsState.swift */,
-				DBEFFA2A1F3B6352001B6512 /* StatefulViewProtocol.swift */,
-				DBEFFA2B1F3B638F001B6512 /* StatefulViewProtocol+UIKit.swift */,
+				DBEFFA2A1F3B6352001B6512 /* StatefulView.swift */,
+				DBEFFA2B1F3B638F001B6512 /* StatefulView+UIKit.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF690181F3B6C47001EF964 /* ContactListViewModel.swift in Sources */,
-				DBEFFA331F3B64F8001B6512 /* StatefulViewProtocol+UIKit.swift in Sources */,
+				DBEFFA331F3B64F8001B6512 /* StatefulView+UIKit.swift in Sources */,
 				DBEFFA301F3B64F8001B6512 /* AppState.swift in Sources */,
 				DBEFFA311F3B64F8001B6512 /* DungeonPalsState.swift in Sources */,
 				DBF690141F3B699B001EF964 /* Contact.swift in Sources */,
@@ -304,7 +304,7 @@
 				DBF690111F3B6937001EF964 /* ContactListViewController.swift in Sources */,
 				DB65304F1F3B7A0200B39CFE /* ContactViewModel.swift in Sources */,
 				DB6530531F3B7BE500B39CFE /* StatSlider.swift in Sources */,
-				DBEFFA321F3B64F8001B6512 /* StatefulViewProtocol.swift in Sources */,
+				DBEFFA321F3B64F8001B6512 /* StatefulView.swift in Sources */,
 				DB6530511F3B7A1200B39CFE /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

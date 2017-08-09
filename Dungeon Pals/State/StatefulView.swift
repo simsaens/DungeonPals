@@ -1,5 +1,5 @@
 //
-//  StatefulViewProtocol.swift
+//  StatefulView.swift
 //  Codea
 //
 //  Created by Simeon on 18/1/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol StatefulViewProtocol
+protocol StatefulView
 {
     associatedtype State
     
@@ -17,7 +17,7 @@ protocol StatefulViewProtocol
     }
 }
 
-class StatefulViewController<T>: UIViewController, StatefulViewProtocol
+class StatefulViewController<T>: UIViewController, StatefulView
 {
     typealias State = T
     
