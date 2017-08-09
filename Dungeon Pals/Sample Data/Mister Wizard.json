@@ -1,0 +1,13 @@
+
+{
+    "website" : "https://www.google.com",
+    "email" : "mr.wizrd@example.com",
+    
+    "stats" : {
+        "str" : 2,
+        "int" : 7,
+        "dex" : 1
+    },
+    
+    "type" : "wizard"    
+}

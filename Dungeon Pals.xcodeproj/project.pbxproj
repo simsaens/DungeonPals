@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		560CC125B953EB07E662C894 /* Pods_Dungeon_Pals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A2D906FF8DA83D9EBBF90F /* Pods_Dungeon_Pals.framework */; };
+		DB65304F1F3B7A0200B39CFE /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65304E1F3B7A0200B39CFE /* ContactViewModel.swift */; };
+		DB6530511F3B7A1200B39CFE /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6530501F3B7A1200B39CFE /* ContactViewController.swift */; };
+		DB6530531F3B7BE500B39CFE /* StatSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6530521F3B7BE500B39CFE /* StatSlider.swift */; };
+		DB6530641F3B8B0100B39CFE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6530631F3B8B0100B39CFE /* Media.xcassets */; };
+		DBEFFA161F3B61C4001B6512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA151F3B61C4001B6512 /* AppDelegate.swift */; };
+		DBEFFA1D1F3B61C4001B6512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEFFA1C1F3B61C4001B6512 /* Assets.xcassets */; };
+		DBEFFA201F3B61C4001B6512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEFFA1E1F3B61C4001B6512 /* LaunchScreen.storyboard */; };
+		DBEFFA301F3B64F8001B6512 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA281F3B6352001B6512 /* AppState.swift */; };
+		DBEFFA311F3B64F8001B6512 /* DungeonPalsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA291F3B6352001B6512 /* DungeonPalsState.swift */; };
+		DBEFFA321F3B64F8001B6512 /* StatefulViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA2A1F3B6352001B6512 /* StatefulViewProtocol.swift */; };
+		DBEFFA331F3B64F8001B6512 /* StatefulViewProtocol+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA2B1F3B638F001B6512 /* StatefulViewProtocol+UIKit.swift */; };
+		DBF690111F3B6937001EF964 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF690101F3B6937001EF964 /* ContactListViewController.swift */; };
+		DBF690141F3B699B001EF964 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF690131F3B699B001EF964 /* Contact.swift */; };
+		DBF690181F3B6C47001EF964 /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF690171F3B6C47001EF964 /* ContactListViewModel.swift */; };
+		DBF6901B1F3B763F001EF964 /* Mister Wizard.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF6901A1F3B763F001EF964 /* Mister Wizard.json */; };
+		DBF6901D1F3B771A001EF964 /* Bargeface.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF6901C1F3B771A001EF964 /* Bargeface.json */; };
+		DBF6901F1F3B7761001EF964 /* Henrietta.json in Resources */ = {isa = PBXBuildFile; fileRef = DBF6901E1F3B7761001EF964 /* Henrietta.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26FB5BA9BA7057EFC2921293 /* Pods-Dungeon Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dungeon Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dungeon Contacts/Pods-Dungeon Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		4EED329C0306144F3BFF3FB6 /* Pods-Dungeon Pals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dungeon Pals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dungeon Pals/Pods-Dungeon Pals.debug.xcconfig"; sourceTree = "<group>"; };
+		599D95595A6CF37D1F72268C /* Pods-Dungeon Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dungeon Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dungeon Contacts/Pods-Dungeon Contacts.release.xcconfig"; sourceTree = "<group>"; };
+		AC82FC71845ED4DF767C5B2F /* Pods_Dungeon_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dungeon_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB65304E1F3B7A0200B39CFE /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		DB6530501F3B7A1200B39CFE /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		DB6530521F3B7BE500B39CFE /* StatSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatSlider.swift; sourceTree = "<group>"; };
+		DB6530631F3B8B0100B39CFE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		DBEFFA121F3B61C4001B6512 /* Dungeon Pals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dungeon Pals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEFFA151F3B61C4001B6512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBEFFA1C1F3B61C4001B6512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEFFA1F1F3B61C4001B6512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBEFFA211F3B61C4001B6512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEFFA281F3B6352001B6512 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DBEFFA291F3B6352001B6512 /* DungeonPalsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DungeonPalsState.swift; sourceTree = "<group>"; };
+		DBEFFA2A1F3B6352001B6512 /* StatefulViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatefulViewProtocol.swift; sourceTree = "<group>"; };
+		DBEFFA2B1F3B638F001B6512 /* StatefulViewProtocol+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatefulViewProtocol+UIKit.swift"; sourceTree = "<group>"; };
+		DBF690101F3B6937001EF964 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		DBF690131F3B699B001EF964 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		DBF690171F3B6C47001EF964 /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		DBF6901A1F3B763F001EF964 /* Mister Wizard.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Mister Wizard.json"; sourceTree = "<group>"; };
+		DBF6901C1F3B771A001EF964 /* Bargeface.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Bargeface.json; sourceTree = "<group>"; };
+		DBF6901E1F3B7761001EF964 /* Henrietta.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Henrietta.json; sourceTree = "<group>"; };
+		E6A2D906FF8DA83D9EBBF90F /* Pods_Dungeon_Pals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dungeon_Pals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8A752247B2DECF4C3C31F2 /* Pods-Dungeon Pals.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dungeon Pals.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dungeon Pals/Pods-Dungeon Pals.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEFFA0F1F3B61C4001B6512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560CC125B953EB07E662C894 /* Pods_Dungeon_Pals.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E0F8DFCEC40E424C7F8238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC82FC71845ED4DF767C5B2F /* Pods_Dungeon_Contacts.framework */,
+				E6A2D906FF8DA83D9EBBF90F /* Pods_Dungeon_Pals.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5889974A26AF4F07A70D6E05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26FB5BA9BA7057EFC2921293 /* Pods-Dungeon Contacts.debug.xcconfig */,
+				599D95595A6CF37D1F72268C /* Pods-Dungeon Contacts.release.xcconfig */,
+				4EED329C0306144F3BFF3FB6 /* Pods-Dungeon Pals.debug.xcconfig */,
+				FD8A752247B2DECF4C3C31F2 /* Pods-Dungeon Pals.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBEFFA091F3B61C4001B6512 = {
+			isa = PBXGroup;
+			children = (
+				DBEFFA141F3B61C4001B6512 /* Dungeon Pals */,
+				DBEFFA131F3B61C4001B6512 /* Products */,
+				5889974A26AF4F07A70D6E05 /* Pods */,
+				45E0F8DFCEC40E424C7F8238 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEFFA131F3B61C4001B6512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEFFA121F3B61C4001B6512 /* Dungeon Pals.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEFFA141F3B61C4001B6512 /* Dungeon Pals */ = {
+			isa = PBXGroup;
+			children = (
+				DBEFFA271F3B6319001B6512 /* State */,
+				DBF690161F3B6C33001EF964 /* View Models */,
+				DBF6900F1F3B691A001EF964 /* Views */,
+				DBF690121F3B6958001EF964 /* Model */,
+				DBF690191F3B760F001EF964 /* Sample Data */,
+				DBEFFA151F3B61C4001B6512 /* AppDelegate.swift */,
+				DBEFFA1C1F3B61C4001B6512 /* Assets.xcassets */,
+				DB6530631F3B8B0100B39CFE /* Media.xcassets */,
+				DBEFFA1E1F3B61C4001B6512 /* LaunchScreen.storyboard */,
+				DBEFFA211F3B61C4001B6512 /* Info.plist */,
+			);
+			path = "Dungeon Pals";
+			sourceTree = "<group>";
+		};
+		DBEFFA271F3B6319001B6512 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				DBEFFA281F3B6352001B6512 /* AppState.swift */,
+				DBEFFA291F3B6352001B6512 /* DungeonPalsState.swift */,
+				DBEFFA2A1F3B6352001B6512 /* StatefulViewProtocol.swift */,
+				DBEFFA2B1F3B638F001B6512 /* StatefulViewProtocol+UIKit.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		DBF6900F1F3B691A001EF964 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DBF690101F3B6937001EF964 /* ContactListViewController.swift */,
+				DB6530501F3B7A1200B39CFE /* ContactViewController.swift */,
+				DB6530521F3B7BE500B39CFE /* StatSlider.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DBF690121F3B6958001EF964 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBF690131F3B699B001EF964 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBF690161F3B6C33001EF964 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBF690171F3B6C47001EF964 /* ContactListViewModel.swift */,
+				DB65304E1F3B7A0200B39CFE /* ContactViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		DBF690191F3B760F001EF964 /* Sample Data */ = {
+			isa = PBXGroup;
+			children = (
+				DBF6901A1F3B763F001EF964 /* Mister Wizard.json */,
+				DBF6901C1F3B771A001EF964 /* Bargeface.json */,
+				DBF6901E1F3B7761001EF964 /* Henrietta.json */,
+			);
+			path = "Sample Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEFFA111F3B61C4001B6512 /* Dungeon Pals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEFFA241F3B61C4001B6512 /* Build configuration list for PBXNativeTarget "Dungeon Pals" */;
+			buildPhases = (
+				152DB2C9300024A9897476CA /* [CP] Check Pods Manifest.lock */,
+				DBEFFA0E1F3B61C4001B6512 /* Sources */,
+				DBEFFA0F1F3B61C4001B6512 /* Frameworks */,
+				DBEFFA101F3B61C4001B6512 /* Resources */,
+				E5539A4510C2938EB669B547 /* [CP] Embed Pods Frameworks */,
+				DC4E2D67EFB462EE7A63B174 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dungeon Pals";
+			productName = "Dungeon Contacts";
+			productReference = DBEFFA121F3B61C4001B6512 /* Dungeon Pals.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEFFA0A1F3B61C4001B6512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Two Lives Left";
+				TargetAttributes = {
+					DBEFFA111F3B61C4001B6512 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = DBEFFA0D1F3B61C4001B6512 /* Build configuration list for PBXProject "Dungeon Pals" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBEFFA091F3B61C4001B6512;
+			productRefGroup = DBEFFA131F3B61C4001B6512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEFFA111F3B61C4001B6512 /* Dungeon Pals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEFFA101F3B61C4001B6512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEFFA201F3B61C4001B6512 /* LaunchScreen.storyboard in Resources */,
+				DBF6901B1F3B763F001EF964 /* Mister Wizard.json in Resources */,
+				DBF6901D1F3B771A001EF964 /* Bargeface.json in Resources */,
+				DBF6901F1F3B7761001EF964 /* Henrietta.json in Resources */,
+				DB6530641F3B8B0100B39CFE /* Media.xcassets in Resources */,
+				DBEFFA1D1F3B61C4001B6512 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		152DB2C9300024A9897476CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4E2D67EFB462EE7A63B174 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dungeon Pals/Pods-Dungeon Pals-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5539A4510C2938EB669B547 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dungeon Pals/Pods-Dungeon Pals-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEFFA0E1F3B61C4001B6512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF690181F3B6C47001EF964 /* ContactListViewModel.swift in Sources */,
+				DBEFFA331F3B64F8001B6512 /* StatefulViewProtocol+UIKit.swift in Sources */,
+				DBEFFA301F3B64F8001B6512 /* AppState.swift in Sources */,
+				DBEFFA311F3B64F8001B6512 /* DungeonPalsState.swift in Sources */,
+				DBF690141F3B699B001EF964 /* Contact.swift in Sources */,
+				DBEFFA161F3B61C4001B6512 /* AppDelegate.swift in Sources */,
+				DBF690111F3B6937001EF964 /* ContactListViewController.swift in Sources */,
+				DB65304F1F3B7A0200B39CFE /* ContactViewModel.swift in Sources */,
+				DB6530531F3B7BE500B39CFE /* StatSlider.swift in Sources */,
+				DBEFFA321F3B64F8001B6512 /* StatefulViewProtocol.swift in Sources */,
+				DB6530511F3B7A1200B39CFE /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBEFFA1E1F3B61C4001B6512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBEFFA1F1F3B61C4001B6512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBEFFA221F3B61C4001B6512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBEFFA231F3B61C4001B6512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEFFA251F3B61C4001B6512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EED329C0306144F3BFF3FB6 /* Pods-Dungeon Pals.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5S3RZ43N7;
+				INFOPLIST_FILE = "Dungeon Pals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twolivesleft.Dungeon-Pals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBEFFA261F3B61C4001B6512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8A752247B2DECF4C3C31F2 /* Pods-Dungeon Pals.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5S3RZ43N7;
+				INFOPLIST_FILE = "Dungeon Pals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.twolivesleft.Dungeon-Pals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEFFA0D1F3B61C4001B6512 /* Build configuration list for PBXProject "Dungeon Pals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEFFA221F3B61C4001B6512 /* Debug */,
+				DBEFFA231F3B61C4001B6512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEFFA241F3B61C4001B6512 /* Build configuration list for PBXNativeTarget "Dungeon Pals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEFFA251F3B61C4001B6512 /* Debug */,
+				DBEFFA261F3B61C4001B6512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBEFFA0A1F3B61C4001B6512 /* Project object */;
+}

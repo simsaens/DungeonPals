@@ -1,0 +1,13 @@
+
+{
+    "website" : "https://www.steal-ur-stuff.com",
+    "email" : "no@no",
+    
+    "stats" : {
+        "str" : 5,
+        "int" : 7,
+        "dex" : 8
+    },
+    
+    "type" : "rogue"
+}

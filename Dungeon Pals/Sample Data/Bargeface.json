@@ -1,0 +1,12 @@
+{
+    "website" : "https://www.barge.io",
+    "email" : "hi.im.a.troll@example.com",
+    
+    "stats" : {
+        "str" : 10,
+        "int" : 1,
+        "dex" : 1
+    },
+    
+    "type" : "troll"
+}
