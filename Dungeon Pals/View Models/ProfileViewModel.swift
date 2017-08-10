@@ -1,5 +1,5 @@
 //
-//  ContactViewModel.swift
+//  ProfileViewModel.swift
 //  Dungeon Pals
 //
 //  Created by Simeon on 10/8/17.
@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import MessageUI
 
-class ContactViewModel {
+class ProfileViewModel {
     
     private let contact: Contact
     

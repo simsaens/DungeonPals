@@ -1,5 +1,5 @@
 //
-//  ContactViewController.swift
+//  ProfileViewController.swift
 //  Dungeon Pals
 //
 //  Created by Simeon on 10/8/17.
@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ContactViewController: StatefulViewController<DungeonPalsState> {
+class ProfileViewController: StatefulViewController<DungeonPalsState> {
 
-    private let viewModel: ContactViewModel        
+    private let viewModel: ProfileViewModel        
     
     private let strengthStat: StatSlider
     private let intelligenceStat: StatSlider
@@ -18,7 +18,7 @@ class ContactViewController: StatefulViewController<DungeonPalsState> {
     
     private let imageView: UIImageView
     
-    init(state: DungeonPalsState, viewModel: ContactViewModel) {
+    init(state: DungeonPalsState, viewModel: ProfileViewModel) {
         self.viewModel = viewModel
     
         strengthStat = StatSlider(title: viewModel.strengthTitle, initialValue: viewModel.strengthValue)

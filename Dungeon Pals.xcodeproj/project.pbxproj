@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		560CC125B953EB07E662C894 /* Pods_Dungeon_Pals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A2D906FF8DA83D9EBBF90F /* Pods_Dungeon_Pals.framework */; };
-		DB65304F1F3B7A0200B39CFE /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65304E1F3B7A0200B39CFE /* ContactViewModel.swift */; };
-		DB6530511F3B7A1200B39CFE /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6530501F3B7A1200B39CFE /* ContactViewController.swift */; };
+		DB65304F1F3B7A0200B39CFE /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB65304E1F3B7A0200B39CFE /* ProfileViewModel.swift */; };
+		DB6530511F3B7A1200B39CFE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6530501F3B7A1200B39CFE /* ProfileViewController.swift */; };
 		DB6530531F3B7BE500B39CFE /* StatSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6530521F3B7BE500B39CFE /* StatSlider.swift */; };
 		DB6530641F3B8B0100B39CFE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6530631F3B8B0100B39CFE /* Media.xcassets */; };
+		DBE2359C1F3C0230004B907F /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE2359B1F3C0230004B907F /* Array+Safe.swift */; };
 		DBEFFA161F3B61C4001B6512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEFFA151F3B61C4001B6512 /* AppDelegate.swift */; };
 		DBEFFA1D1F3B61C4001B6512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEFFA1C1F3B61C4001B6512 /* Assets.xcassets */; };
 		DBEFFA201F3B61C4001B6512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBEFFA1E1F3B61C4001B6512 /* LaunchScreen.storyboard */; };
@@ -32,10 +33,11 @@
 		4EED329C0306144F3BFF3FB6 /* Pods-Dungeon Pals.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dungeon Pals.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dungeon Pals/Pods-Dungeon Pals.debug.xcconfig"; sourceTree = "<group>"; };
 		599D95595A6CF37D1F72268C /* Pods-Dungeon Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dungeon Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dungeon Contacts/Pods-Dungeon Contacts.release.xcconfig"; sourceTree = "<group>"; };
 		AC82FC71845ED4DF767C5B2F /* Pods_Dungeon_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dungeon_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB65304E1F3B7A0200B39CFE /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
-		DB6530501F3B7A1200B39CFE /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		DB65304E1F3B7A0200B39CFE /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		DB6530501F3B7A1200B39CFE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DB6530521F3B7BE500B39CFE /* StatSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatSlider.swift; sourceTree = "<group>"; };
 		DB6530631F3B8B0100B39CFE /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		DBE2359B1F3C0230004B907F /* Array+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
 		DBEFFA121F3B61C4001B6512 /* Dungeon Pals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dungeon Pals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEFFA151F3B61C4001B6512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBEFFA1C1F3B61C4001B6512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DBE2359A1F3C021A004B907F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DBE2359B1F3C0230004B907F /* Array+Safe.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DBEFFA091F3B61C4001B6512 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +123,7 @@
 				DBF6900F1F3B691A001EF964 /* Views */,
 				DBF690121F3B6958001EF964 /* Model */,
 				DBF690191F3B760F001EF964 /* Sample Data */,
+				DBE2359A1F3C021A004B907F /* Utils */,
 				DBEFFA151F3B61C4001B6512 /* AppDelegate.swift */,
 				DBEFFA1C1F3B61C4001B6512 /* Assets.xcassets */,
 				DB6530631F3B8B0100B39CFE /* Media.xcassets */,
@@ -137,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				DBF690101F3B6937001EF964 /* ContactListViewController.swift */,
-				DB6530501F3B7A1200B39CFE /* ContactViewController.swift */,
+				DB6530501F3B7A1200B39CFE /* ProfileViewController.swift */,
 				DB6530521F3B7BE500B39CFE /* StatSlider.swift */,
 			);
 			path = Views;
@@ -155,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				DBF690171F3B6C47001EF964 /* ContactListViewModel.swift */,
-				DB65304E1F3B7A0200B39CFE /* ContactViewModel.swift */,
+				DB65304E1F3B7A0200B39CFE /* ProfileViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -295,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE2359C1F3C0230004B907F /* Array+Safe.swift in Sources */,
 				DBF690181F3B6C47001EF964 /* ContactListViewModel.swift in Sources */,
 				DBEFFA331F3B64F8001B6512 /* StatefulView+UIKit.swift in Sources */,
 				DBEFFA301F3B64F8001B6512 /* AppState.swift in Sources */,
@@ -302,10 +314,10 @@
 				DBF690141F3B699B001EF964 /* Contact.swift in Sources */,
 				DBEFFA161F3B61C4001B6512 /* AppDelegate.swift in Sources */,
 				DBF690111F3B6937001EF964 /* ContactListViewController.swift in Sources */,
-				DB65304F1F3B7A0200B39CFE /* ContactViewModel.swift in Sources */,
+				DB65304F1F3B7A0200B39CFE /* ProfileViewModel.swift in Sources */,
 				DB6530531F3B7BE500B39CFE /* StatSlider.swift in Sources */,
 				DBEFFA321F3B64F8001B6512 /* StatefulView.swift in Sources */,
-				DB6530511F3B7A1200B39CFE /* ContactViewController.swift in Sources */,
+				DB6530511F3B7A1200B39CFE /* ProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

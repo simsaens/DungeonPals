@@ -41,8 +41,9 @@ class ContactListViewModel {
         return Promise {
             fulfil, reject in
             
-            if let contact = Contact(path: self.paths[rowIndex]) {
-                fulfil(DungeonPalsState.contact(contact: contact))
+            if let path = self.paths[safe: rowIndex],
+                let contact = Contact(path: path) {
+                fulfil(DungeonPalsState.profile(contact: contact))
             } else {
                 reject(NSError(domain: "com.twolivesleft.Dungeon-Pals", code: 0, userInfo: [NSLocalizedDescriptionKey : "Error loading contact!"]))
             }

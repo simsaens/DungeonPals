@@ -17,7 +17,7 @@ enum DungeonPalsState: AppState {
     
     case contactList(path: URL)
     
-    case contact(contact: Contact)
+    case profile(contact: Contact)
     
     //Common States
 
@@ -39,8 +39,8 @@ enum DungeonPalsState: AppState {
             let nav = UINavigationController(rootViewController: list)
             return nav
             
-        case .contact(let contact):
-            return ContactViewController(state: self, viewModel: ContactViewModel(contact: contact))
+        case .profile(let contact):
+            return ProfileViewController(state: self, viewModel: ProfileViewModel(contact: contact))
             
         //Common States
             
@@ -123,14 +123,6 @@ enum DungeonPalsState: AppState {
             } else {
                 controller.present(viewController, animated: true, completion: nil)
             }
-        }
-    }
-    
-    static func dismissView<T : UIViewController>(_ controller: T) where T : StatefulView {
-        if let nav = controller.navigationController {
-            nav.popViewController(animated: true)
-        } else {
-            controller.dismiss(animated: true, completion: nil)
         }
     }
     
